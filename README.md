@@ -2,6 +2,7 @@
 A simple Random Password Generator using HTML, CSS and JavaScript
 # What this does
 Generates an eight-character-long random password on one click
+Characters include digits, special characters, upper and lower case alphabets
 Copies password to clipboard
 Shows the copied password in the bottom-right corner
 # Technologies used
@@ -11,6 +12,7 @@ JavaScript
 # What I learned
 The use of aria-hidden="true" in HTML icon
 DOM Selection (getElementById, querySelector) in JS
+DOM Manipulation (value, innerText, classList) 
 Click Event Listener in JS
 Browser Clipboard API
 Built-in JS functions: Math.random(), setTimeout(), select(), setSelectionRange()
